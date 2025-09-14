@@ -1,0 +1,46 @@
+#wptbm-form {
+	max-width: 560px;
+	padding: 16px;
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	background: #fff;
+}
+#wptbm-form .wptbm-field {
+	margin-bottom: 12px;
+}
+#wptbm-form .wptbm-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+#wptbm-form .wptbm-field input,
+#wptbm-form .wptbm-field select,
+#wptbm-form .wptbm-field textarea {
+	width: 100%;
+	padding: 8px 10px;
+	border: 1px solid #cbd5e1;
+	border-radius: 6px;
+}
+#wptbm-form .grid-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+}
+#wptbm-form .wptbm-submit {
+	background: #111827;
+	color: #fff;
+	border: 0;
+	padding: 10px 14px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+#wptbm-form .wptbm-submit:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+#wptbm-form .wptbm-message {
+	margin-top: 10px;
+	min-height: 20px;
+}
+#wptbm-form .wptbm-message.ok { color: #059669; }
+#wptbm-form .wptbm-message.err { color: #dc2626; }
